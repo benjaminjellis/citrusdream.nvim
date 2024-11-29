@@ -38,7 +38,7 @@ return function(C, O)
     -- SnacksDashboardDir = { link = "NonText" },
     SnacksDashboardFooter = { fg = C.yellow, italic = O.italic },
     SnacksDashboardHeader = { fg = C.orange },
-    -- SnacksDashboardIcon = { fg = C.pink, bold = true },
+    SnacksDashboardIcon = { fg = C.violet, bold = true },
     -- SnacksDashboardKey = { fg = C.peach },
     -- SnacksDashboardTerminal = { link = "SnacksDashboardNormal" },
     -- SnacksDashboardSpecial = { link = "Special" },
