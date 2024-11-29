@@ -1,14 +1,14 @@
 return function(C, O)
   return {
     -- SnacksNormal = { link = "NormalFloat" },
-    -- SnacksWinBar = { link = "Title" },
+    SnacksWinBar = { link = "Title" },
     -- SnacksBackdrop = { fg = C.overlay0 },
     -- SnacksNormalNC = { link = "NormalFloat" },
     -- SnacksWinBarNC = { link = "SnacksWinBar" },
 
-    -- SnacksNotifierInfo = { fg = C.blue },
-    -- SnacksNotifierIconInfo = { fg = C.blue },
-    -- SnacksNotifierTitleInfo = { fg = C.blue, style = { "italic" } },
+    SnacksNotifierInfo = { fg = C.blue },
+    SnacksNotifierIconInfo = { fg = C.blue },
+    SnacksNotifierTitleInfo = { fg = C.blue, style = { "italic" } },
     -- SnacksNotifierFooterInfo = { link = "DiagnosticInfo" },
     -- SnacksNotifierBorderInfo = { fg = C.blue },
     -- SnacksNotifierWarn = { fg = C.yellow },
