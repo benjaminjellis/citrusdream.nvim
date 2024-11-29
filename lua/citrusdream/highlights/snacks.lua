@@ -8,7 +8,7 @@ return function(C, O)
 
     SnacksNotifierInfo = { fg = C.blue },
     SnacksNotifierIconInfo = { fg = C.blue },
-    SnacksNotifierTitleInfo = { fg = C.blue, style = { "italic" } },
+    SnacksNotifierTitleInfo = { fg = C.blue, italic = O.italic },
     -- SnacksNotifierFooterInfo = { link = "DiagnosticInfo" },
     -- SnacksNotifierBorderInfo = { fg = C.blue },
     -- SnacksNotifierWarn = { fg = C.yellow },
