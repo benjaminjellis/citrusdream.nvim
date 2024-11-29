@@ -36,7 +36,7 @@ return function(C, O)
     SnacksDashboardDesc = { fg = C.lime_green },
     -- SnacksDashboardFile = { fg = C.lavender },
     -- SnacksDashboardDir = { link = "NonText" },
-    -- SnacksDashboardFooter = { fg = C.yellow, style = { "italic" } },
+    SnacksDashboardFooter = { fg = C.yellow, italic = O.italic },
     SnacksDashboardHeader = { fg = C.orange },
     -- SnacksDashboardIcon = { fg = C.pink, bold = true },
     -- SnacksDashboardKey = { fg = C.peach },
