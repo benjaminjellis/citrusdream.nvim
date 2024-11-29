@@ -33,7 +33,7 @@ return function(C, O)
     -- SnacksNotifierFooterTrace = { link = "DiagnosticHint" },
 
     -- SnacksDashboardNormal = { link = "Normal" },
-    SnacksDashboardDesc = { fg = C.blue },
+    SnacksDashboardDesc = { fg = C.lime_green },
     -- SnacksDashboardFile = { fg = C.lavender },
     -- SnacksDashboardDir = { link = "NonText" },
     -- SnacksDashboardFooter = { fg = C.yellow, style = { "italic" } },
