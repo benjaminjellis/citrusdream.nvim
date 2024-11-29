@@ -33,7 +33,7 @@ M.theme = function(C, O)
   local ocaml = require("citrusdream.highlights.ocaml")(C, O)
 
   local rest = {
-    -- Title = { fg = C.orange, style = { "bold" } },
+    Title = { fg = C.orange, style = { "bold" } },
     -- debugging
     debugPC = { bg = C.background }, -- used for highlighting the current line in terminal-debug
     debugBreakpoint = { bg = C.background, fg = C.foreground }, -- used for breakpoint colors in terminal-debug
